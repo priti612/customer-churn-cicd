@@ -1,0 +1,22 @@
+{
+  "best_model": "Logistic Regression",
+  "selection_metric": "f1_churn",
+  "test_metrics": {
+    "Logistic Regression": {
+      "accuracy": 0.6208,
+      "precision_churn": 0.5354,
+      "recall_churn": 0.5408,
+      "f1_churn": 0.5381
+    },
+    "Random Forest": {
+      "accuracy": 0.6292,
+      "precision_churn": 0.56,
+      "recall_churn": 0.4286,
+      "f1_churn": 0.4855
+    }
+  },
+  "classes": [
+    "Not Churn",
+    "Churn"
+  ]
+}
